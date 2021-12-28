@@ -87,7 +87,7 @@ book
   .catch((err) => console.log(err));
 
 //@DESC create new phone number with proper data
-//@OUTPUT return back the phone number detail
+//@OUTPUT return phone number detail
 book
   .create({
     phoneNumber: "8137088555",
@@ -109,7 +109,7 @@ book
   .catch((err) => console.log(err));
 
 //@DESC create new phone number with proper data
-//@OUTPUT return back the phone number detail
+//@OUTPUT return phone number detail
 book
   .create({
     phoneNumber: "8137909090",
@@ -120,7 +120,7 @@ book
   .catch((err) => console.log(err));
 
 //@DESC Get unique phone details using the phone number
-//@OUTPUT return back the phone number detail
+//@OUTPUT return  phone number detail
 book
   .findByPhoneNumber("8137088555")
   .then((res) => console.log(res))
